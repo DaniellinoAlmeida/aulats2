@@ -21,6 +21,14 @@ namespace empresa{
             this._codBanco = codigo;
         }
 
+        public getClientes(){
+            return this._clientes;
+        }
+
+        public addCliente(cliente:Cliente){
+            this._clientes.push(cliente);
+        }
+
         public getFuncionario(){
             return this._funcionarios;
         }

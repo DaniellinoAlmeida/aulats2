@@ -1,7 +1,7 @@
 namespace empresa{
     export class Funcionario extends Pessoa{
         private _codFuncionario:number;
-        private _setor:number;
+        private _setor:string;
         private _banco:Banco;
 
         public getCodFuncionario(){
@@ -16,7 +16,7 @@ namespace empresa{
             return this._setor;
         }
 
-        public setSetor(setor:number){
+        public setSetor(setor:string){
             this._setor = setor;
         }
 

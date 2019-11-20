@@ -2,8 +2,8 @@
 
 namespace empresa{
     export class Cliente extends Pessoa{
-        private _codCliente:Number;
-        private _credito:Number;
+        private _codCliente:number;
+        private _credito:number;
         private _banco:Banco;
 
 
@@ -11,7 +11,7 @@ namespace empresa{
             return this._codCliente;
         }
 
-        public setCodCliente(codigo:Number){
+        public setCodCliente(codigo:number){
             this._codCliente = codigo;
         }
 
@@ -19,7 +19,7 @@ namespace empresa{
             return this._credito;
         }
 
-        public setCredito(credito:Number){
+        public setCredito(credito:number){
             this._credito = credito;
         }
 
